@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W. Yenuka Harshan - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-mode">
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#journey">Journey</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="menu-icon"><i class="fas fa-bars"></i></div>
+    <div class="sidebar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#journey">Journey</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <section id="home">
+        <div class="side side-a">
+            <h1>W. Yenuka Harshan</h1>
+            <h3 id="typewriter" class="typewriter"></h3>
+            <p>I specialize in crafting seamless digital experiences through innovative full-stack development and intuitive UI/UX design.</p>
+            <a href="#contact" class="btn">Contact Me</a>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        <div class="side side-b photo-container">
+            <img src="Profile IMG.png" alt="Yenuka Harshan" style="background: url('paint-splash-bg.jpg') no-repeat center/cover;">
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="side side-a photo-container">
+            <img src="Profile IMG.png" alt="Yenuka Harshan">
+        </div>
+        <div class="side side-b">
+            <h2>About Me</h2>
+            <p>I specialize in crafting seamless digital experiences through innovative full-stack development and intuitive UI/UX design.</p>
+        </div>
+    </section>
+
+    <section id="journey">
+        <div class="side side-a">
+            <h2>Education</h2>
+            <p><strong>2022 - Present</strong><br>B. Tech in Software Technology<br>University of Vocational Technology</p>
+            <p><strong>2021 - 2022</strong><br>Diploma in Information Technology<br>ICBT Southern Campus</p>
+        </div>
+        <div class="side side-b">
+            <h2>Experience</h2>
+            <p><strong>2025 March 10 - 2025 April 09</strong><br>UI/UX Designer<br>Construction Industry Development Authority<br><em>Designed user-friendly login and registration interfaces using Figma.</em></p>
+            <p><strong>2025 April 03 - 2025 October 03</strong><br>Software Engineer<br>Sri Lanka Telecom PLC<br><em>Developed scalable solutions for telecommunication systems.</em></p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="side side-a" style="position: relative;">
+            <h2>Projects</h2>
+            <div class="projects-container" id="projects-container">
+                <div class="project" data-index="0"><img src="project1.jpg" alt=""><p>2024 July</p></div>
+                <div class="project" data-index="1"><img src="project2.jpg" alt=""><p>2024 October</p></div>
+                <div class="project" data-index="2"><img src="project3.jpg" alt=""><p>2024 November</p></div>
+                <div class="project" data-index="3"><img src="project4.jpg" alt=""><p>2025 January</p></div>
+                <div class="project" data-index="4"><img src="project5.jpg" alt=""><p>2025 March</p></div>
+                <div class="project" data-index="5"><img src="project6.jpg" alt=""><p>2025 April</p></div>
+            </div>
+            <span class="arrow left-arrow" onclick="scrollProjects(-1)">❮</span>
+            <span class="arrow right-arrow" onclick="scrollProjects(1)">❯</span>
+        </div>
+        <div class="side side-b" id="project-details">
+            <h3>Project Name</h3>
+            <p>Explore the details of this project, showcasing innovative solutions and design.</p>
+            <a href="#" class="btn" style="width: fit-content;">See More</a>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="side side-a">
+            <h2 style="text-align: center;">My Skills</h2>
+            <div class="skill-card">
+                <h4>Front-End Development</h4>
+                <div class="skills-icons">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React">
+                    <img src="https://reactnative.dev/img/header_logo.svg" alt="React Native">
+                    <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap">
+                </div>
+            </div>
+            <div class="skill-card">
+                <h4>Back-End Development</h4>
+                <div class="skills-icons">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="PHP">
+                    <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dotnet/dot-net-original-wordmark.svg" alt=".NET">
+                </div>
+            </div>
+            <div class="skill-card">
+                <h4>Database</h4>
+                <div class="skills-icons">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB">
+                    <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="MSSQL">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="Oracle">
+                </div>
+            </div>
+        </div>
+        <div class="side side-b">
+            <div class="skill-card">
+                <h4>Mobile App Development</h4>
+                <div class="skills-icons">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="Android">
+                    <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="Flutter">
+                    <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="Dart">
+                </div>
+            </div>
+            <div class="skill-card">
+                <h4>Others</h4>
+                <div class="skills-icons">
+                    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git">
+                    <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="Firebase">
+                    <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman">
+                    <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="Figma">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="Photoshop">
+                    <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="Arduino">
+                </div>
+            </div>
+            <div class="skill-card">
+                <h4>Programming Languages</h4>
+                <div class="skills-icons">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="C#">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" alt="Ruby">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="side side-a">
+            <h2>Contact Me</h2>
+            <div class="form-group"><input type="text" id="fullName" placeholder="Full Name" required></div>
+            <div class="form-group"><input type="email" id="email" placeholder="Email" required></div>
+            <div class="form-group"><input type="text" id="mobile" placeholder="Mobile Number" required></div>
+            <div class="form-group"><input type="text" id="subject" placeholder="Subject" required></div>
+            <div class="form-group"><textarea id="message" placeholder="Your Message" rows="6" required></textarea></div>
+            <button class="btn" onclick="sendEmail()">Submit</button>
+        </div>
+        <div class="side side-b"></div>
+    </section>
+
+    <footer>
+        <div>© 2025 Yenuka Harshan. All Rights Reserved.</div>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="www.linkedin.com/in/yenuka-harshan-557106348"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="GitHub Profile/Readme.html"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="theme-toggle" onclick="toggleTheme()">
+            <i class="fas fa-sun"></i>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

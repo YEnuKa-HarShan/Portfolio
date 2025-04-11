@@ -1,0 +1,17 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    color: #2d3748;
+}
+.skill-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.section-title {
+    border-bottom: 3px solid #0e75b6;
+    display: inline-block;
+    padding-bottom: 5px;
+}

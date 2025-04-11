@@ -1,0 +1,121 @@
+[
+    {
+        "actor_name": "Unni Mukundan",
+        "actor_image": "Unni Mukundan.jpg",
+        "roles": [
+            {"movie_id": "1", "character": "Marco"}
+        ]
+    },
+    {
+        "actor_name": "Yukti Thareja",
+        "actor_image": "Yukti Thareja.jpg",
+        "roles": [
+            {"movie_id": "1", "character": "Maria"}
+        ]
+    },
+    {
+        "actor_name": "Kabir Duhan Singh",
+        "actor_image": "Kabir Duhan Singh.jpg",
+        "roles": [
+            {"movie_id": "1", "character": "Cyrus"}
+        ]
+    },
+    {
+        "actor_name": "Jagadish",
+        "actor_image": "Jagadish.jpg",
+        "roles": [
+            {"movie_id": "1", "character": "Tony"}
+        ]
+    },
+    {
+        "actor_name": "Vijay Antony",
+        "actor_image": "Vijay Antony.jpg",
+        "roles": [
+            {"movie_id": "2", "character": "Salim"}
+        ]
+    },
+    {
+        "actor_name": "Megha Akash",
+        "actor_image": "Megha Akash.jpg",
+        "roles": [
+            {"movie_id": "2", "character": "Sowmya"}
+        ]
+    },
+    {
+        "actor_name": "Dhananjay",
+        "actor_image": "Dhananjay.jpg",
+        "roles": [
+            {"movie_id": "2", "character": "Daali"}
+        ]
+    },
+    {
+        "actor_name": "Jim Carrey",
+        "actor_image": "Jim Carrey.jpg",
+        "roles": [
+            {"movie_id": "3", "character": "Dr. Robotnik"}
+        ]
+    },
+    {
+        "actor_name": "Ben Schwartz",
+        "actor_image": "Ben Schwartz.jpg",
+        "roles": [
+            {"movie_id": "3", "character": "Sonic"}
+        ]
+    },
+    {
+        "actor_name": "Keanu Reeves",
+        "actor_image": "Keanu Reeves.jpg",
+        "roles": [
+            {"movie_id": "3", "character": "Shadow"}
+        ]
+    },
+    {
+        "actor_name": "Idris Elba",
+        "actor_image": "Idris Elba.jpg",
+        "roles": [
+            {"movie_id": "3", "character": "Knuckles"}
+        ]
+    },
+    {
+        "actor_name": "Vikrant Massey",
+        "actor_image": "Vikrant Massey.jpg",
+        "roles": [
+            {"movie_id": "4", "character": "Lenny D Souza"}
+        ]
+    },
+    {
+        "actor_name": "Ruhani Sharma",
+        "actor_image": "Ruhani Sharma.jpg",
+        "roles": [
+            {"movie_id": "4", "character": "Roshni D Souza"}
+        ]
+    },
+    {
+        "actor_name": "Mouni Roy",
+        "actor_image": "Mouni Roy.jpg",
+        "roles": [
+            {"movie_id": "4", "character": "Pinky"}
+        ]
+    },
+    {
+        "actor_name": "Sunil Grover",
+        "actor_image": "Sunil Grover.jpg",
+        "roles": [
+            {"movie_id": "4", "character": "Bewdya"}
+        ]
+    },
+    {
+        "actor_name": "Varun Dhawan",
+        "actor_image": "Varun Dhawan.jpg",
+        "roles": [
+            {"movie_id": "5", "character": "Kunwar Raj"}
+        ]
+    },
+    {
+        "actor_name": "Sara Ali Khan",
+        "actor_image": "Sara Ali Khan.jpg",
+        "roles": [
+            {"movie_id": "5", "character": "Sarah"}
+        ]
+    }
+]

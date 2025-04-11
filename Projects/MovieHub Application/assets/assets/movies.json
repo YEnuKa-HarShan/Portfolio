@@ -1,0 +1,57 @@
+[
+    {
+    "id": "1",
+    "Title": "Marco",
+    "Year": "2024",
+    "Portrait": "Marco 2024.jpg",
+    "Landscape": "Marco 2024.jpg",
+    "Genre": ["Action", "Thriller"],
+    "Language": "Malayalam",
+    "teraboxLink": "coming soon",
+    "cast": ["Unni Mukundan", "Yukti Thareja", "Kabir Duhan Singh", "Jagadish"]
+  },
+  {
+    "id": "2",
+    "Title": "Mazhai Pidikatha Manithan",
+    "Year": "2024",
+    "Portrait": "Mazhai Pidikatha Manithan 2024.jpg",
+    "Landscape": "Mazhai Pidikatha Manithan 2024.jpg",
+    "Genre": ["Action"],
+    "Language": "Tamil",
+    "teraboxLink": "coming soon",
+    "cast": ["Vijay Antony", "Megha Akash", "Dhananjay"]
+  },
+  {
+    "id": "3",
+    "Title": "Sonic the Hedgehog 3",
+    "Year": "2024",
+    "Portrait": "Sonic the Hedgehog 3 2024.jpg",
+    "Landscape": "Sonic the Hedgehog 3 2024.jpg",
+    "Genre": ["Action", "Adventure", "Comedy"],
+    "Language": "English",
+    "teraboxLink": "coming soon",
+    "cast": ["Jim Carrey", "Ben Schwartz", "Keanu Reeves", "Idris Elba"]
+  },
+  {
+    "id": "4",
+    "Title": "Blackout",
+    "Year": "2024",
+    "Portrait": "Blackout 2024.jpg",
+    "Landscape": "Blackout 2024.jpg",
+    "Genre": [""],
+    "Language": "Hindi",
+    "teraboxLink": "coming soon",
+    "cast": ["Vikrant Massey", "Ruhani Sharma", "Mouni Roy", "Sunil Grover"]
+  },
+  {
+    "id": "5",
+    "Title": "Coolie No.1",
+    "Year": "2020",
+    "Portrait": "Coolie No.1 2020.jpg",
+    "Landscape": "Coolie No.1 2020.jpg",
+    "Genre": [""],
+    "Language": "Hindi",
+    "teraboxLink": "coming soon",
+    "cast": ["Varun Dhawan", "Sara Ali Khan"]
+  }
+]
